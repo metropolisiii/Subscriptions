@@ -1,0 +1,71 @@
+body {
+    background-color: #fefefe;
+    font-family: arial;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 100%;
+}
+#form_container{
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 15px;
+}
+.field {
+    clear: both;
+    margin-top: 20px;
+	overflow:hidden;
+}
+#footer {
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+#errors{
+	color:red;
+}
+#header {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#willbenotified{
+	color:green;
+}
+
+#notifyees{
+	color:red;
+	font-size: 12px;
+}
+.bordered {
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+}
+#confirmation {
+    font-size: 25px;
+}
+#loading {
+    display: none;
+    left: 423px;
+    position: absolute;
+    top: 275px;
+}
+th {
+    text-align: left;
+}
+
+table.formatted_table {
+    border: thin solid;
+	padding:10px;
+}
+
+.formatted_table th, td {
+    border: medium none;
+    padding: 5px;
+    vertical-align: top;
+}

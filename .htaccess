@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/subscriptions/tests/ [NC]
+RewriteCond %{REQUEST_URI} !^/subscriptions/simpletest/ [NC]
+RewriteCond $1 !^(index\.php|images|js|css|robots\.txt)
+RewriteRule ^(.*)$ /subscriptions/index.php/$1 [L]

@@ -1,0 +1,21 @@
+=== Installation Instructions ===
+1. Download this zip archive
+2. Unzip to a temprorary location
+3. Change into the Auth_Ldap directory
+4. Recursively copy the library into your application/ directory
+5. Configure the library
+
+A typical example of this process would be:
+
+$ cd /tmp
+$ wget http://www.techrockdo.com/projects/Auth_Ldap-0.5.zip
+$ unzip Auth_Ldap-0.5.zip
+$ cd Auth_Ldap
+$ cp -r * /path/to/your/codeigniter/install/application/
+$ vim /path/to/your/codeigniter/install/application/config/auth_ldap.php
+
+If you don't want the example views and controller, then change the 
+5th step above to:
+$ cp -r libraries config /path/to/your/codeigniter/install/application/
+
+Enjoy!
